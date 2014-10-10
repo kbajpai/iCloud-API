@@ -6,7 +6,7 @@ Based on https://www.icloud.com requests
 Made by Vladimir Smirnov (vladimir@smirnov.im)
 http://www.mindcollapse.com/
 
-WARNING! 
+WARNING!
 This code could be used for educational purposes only.
 
 I.e. you should not use this code in any testing or production environments,
@@ -32,3 +32,4 @@ testCloud = iCloud(login="email@icloud.com", password="123456")
 testCloud.authenticate()
 print (testCloud.getContactsList())
 testCloud.logout()
+
